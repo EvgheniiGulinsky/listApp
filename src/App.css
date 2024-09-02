@@ -1,0 +1,31 @@
+.App {
+  margin-top: 50px;
+  width: 100vw;
+  height: 400px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.list-container {
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.list-item {
+  width: 20vw;
+  height: 20vw;
+  min-width: 20vw;
+  margin-right: 10px;
+}
